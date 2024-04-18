@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+#logo{
+    height: 200px;
+    width: 200px;
+    margin-left: 0px;
+}
+#heading{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(7, 7, 149);
+     
+}   
+#para{
+    margin-top: 70px;
+    margin-left: -250px;
+    color: rgb(99, 99, 242)
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-image: url('./backimg.jpg');
+    width: 100%;
+    height: 150vh; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.welcome{
+    padding-top: 18%;
+    padding-left: 8%;
+    padding-bottom: 10%;
+}
+.welcome h3{
+    color: white;
+    font-size: 50px;
+    
+}
+.welcome h1{
+    font-size: 70px;
+  font-weight: bold;
+  color: antiquewhite;
+    
+}
+@media(max-width:600px){
+    .welcome h1{
+        
+        font-size: 30px;
+    
+    }
+    .welcome h3{
+        padding-top: 8%;
+    }
+}
+.btn:hover{
+   color: black;
+   background-color: rgb(40, 40, 244);
+  
+}
+@media(min-width:992px){
+    ul{
+        display: flex;
+        align-items: center;
+    }
+}
+@media(max-width:992px){
+    .nav-item i{
+       display: none;
+    }
+    
+}
+
+
+.explore{
+    background-image: url('https://wallpaperset.com/w/full/7/a/f/67538.jpg');
+    width: 100%;
+    height:180vh;
+    background-size: cover;
+    padding-top: 8%;
+}
+.explore h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+@media(max-width:600px){
+    .explore img{
+        height: 100%;
+        width: 100%;
+    }
+
+}
+@media(min-width:600px){
+    .explore {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.packages{
+    background-image: url('https://www.wallpaperflare.com/static/67/948/967/photography-photoshop-simple-background-nature-wallpaper.jpg');
+    width: 100%;
+    height:350vh;
+    background-size: cover;
+    padding-top: 8%;
+}
+
+@media(max-width:600px){
+    .packages card1{
+        height: 100%;
+        width: 50%;
+    }
+
+}
+@media(min-width:600px){
+    .packages card1 {
+        height: 100%;
+        width: 50%;
+    }
+}
+.packages h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+@media(max-width:600px){
+    .packages img{
+        height: 100%;
+        width: 100%;
+    }
+
+}
+@media(min-width:600px){
+    .packages  {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.btnex{
+    color: darkred;
+    border: 2px solid brown;
+    background-color: lightgoldenrodyellow;
+
+    border-radius: 2%;
+}
+.head{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+  .card-title{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 30px;
+  }
+  .card img{
+    height: 300px;
+  }
+  .offers{
+    background-image: url('https://wallpapercave.com/wp/wp2777452.jpg');
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    padding-top: 8%;
+    margin-top: 15px;
+}
+@media(max-width:600px){
+    .offers img{
+        height: 100%;
+        width: 100%;
+    }
+
+}
+@media(min-width:600px){
+    .offers {
+        height: 100%;
+        width: 100%;
+    }
+}
+.card:hover{
+    box-shadow: 4px 6px 8px 2px black;
+}
+.toggle{
+    margin-left: 250px;
+    margin-top: 90px;
+
+}
+.offers button{
+    color: black;
+    background-color: aquamarine;
+    
+}
+.offers button:hover{
+    color: white;
+    
+
+}
+.booking{
+    background-image: url('https://wallpaperaccess.com/full/1881717.jpg');
+    width: 100%;
+    height:200vh;
+    background-size: cover;
+    padding-top: 8%;
+}
+@media(min-width:992px){
+    .booking img{
+        height: 100%;
+        width: 100%;
+    }
+    }
+
+@media(max-width:992px){
+    .booking{
+        height: 100%;
+        width: 100%;
+    
+    }
+    
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 200px;
+    margin-left: -250px;
+
+}
+.icon-set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+
+    }
+    .icon i{
+        font-size: 30px;
+        color: black;
+    }
+    .icon:hover i{
+        color:rgb(125, 10, 207);
+        animation: shake 0.5s;
+    }
+     @keyframes shake{
+        10%{
+            transform: rotate(15deg);
+        }
+        20%{
+            transform: rotate(-15deg);
+        }
+       30%{
+        transform: rotate(15deg);
+         }
+         40%{
+            transform: rotate(-15deg);
+         }
+            
+         }
+         footer p{
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+            
+         }
+         footer p:hover{
+            color:black;
+         }
